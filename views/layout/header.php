@@ -22,7 +22,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?=base_url?>formulario/index">
+                            <a href="<?=base_url?>Formulario/index">
                                 Report
                             </a>
                         </li>
@@ -38,26 +38,26 @@
                         </li>
                         <?php if(!isset($_SESSION['identity'])):?>
                         <li>
-                            <a href="<?=base_url?>usuario/inicio">
+                            <a href="<?=base_url?>Usuario/inicio">
                                 Iniciar sesion
                             </a>              
                         </li>
                         <li>
-                            <a href="<?=base_url?>?controller=usuario&action=registro">
+                            <a href="<?=base_url?>?controller=Usuario&action=registro">
                                 Registrarse
                             </a>               
                         </li>
                         <?php else: ?>
                         <li><h3><?=$_SESSION['identity']->nombre?></h3></li>
                         <li>
-                            <a href="<?=base_url?>formulario/registro">
+                            <a href="<?=base_url?>Formulario/registro">
                                 Mis registros
                             </a>              
                         </li>
                         <?php endif;?>
                         
                         <li>
-                            <a href="<?=base_url?>usuario/logout">
+                            <a href="<?=base_url?>Usuario/logout">
                                 Cerrar sesion
                             </a>               
                         </li>
