@@ -4,7 +4,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Formularios ICV</title>
-        <link rel="stylesheet" href="<?=base_url?>/assets/css/styles.css?v=<?php echo time(); ?>"              
+        <link rel="stylesheet" href="<?=base_url?>/assets/css/styles.css?v=<?php echo time(); ?>"    
+              		<!--PARA color-->
+		<meta name="theme-color" content="#fff"/>
+
+		<!-- Optimizacion para movil-->
+		<meta name="MobileOptimized" content="width"/>
+		<meta name="HandheldFriendly" content="true"/>
+		<!--PARA APpLE-->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+		<link rel="apple-touch-icon" href="img/favicon.png"/>
+		<link rel="apple-touch-startup-image" href="img/favicon.png"/>
+		<!--conf general-->
+		<link rel="manifest" href="manifest.json"/>
     </head>
     <body>
         <div id="container">
