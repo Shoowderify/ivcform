@@ -54,13 +54,14 @@
                                 Mis registros
                             </a>              
                         </li>
-                        <?php endif;?>
-                        
-                        <li>
+                         <li>
                             <a href="<?=base_url?>Usuario/logout">
                                 Cerrar sesion
                             </a>               
                         </li>
+                        <?php endif;?>
+                        
+                       
                         
 
                     </ul>
