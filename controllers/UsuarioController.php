@@ -1,5 +1,9 @@
 <?php
 require_once 'models/usuario.php';
+var headers = req.HttpContext.Response.Headers;
+        var when = DateTime.UtcNow;
+        var v = new StringValues(when.ToString("yyyy-MM-dd HH:mm:ss.ffffff"));
+        headers.Add("now", v);
 
 class usuarioController{
 	
@@ -76,7 +80,7 @@ class usuarioController{
 			}
 		
 		}
-		header("Location:".base_url."index.php");
+		header("Location:".base_url);
 	}
         
         public function logout(){
@@ -86,7 +90,7 @@ class usuarioController{
             if(isset($_SESSION['admin'])){
                 unset($_SESSION['admin']);
             }
-            header("Location:".base_url."index.php");
+            header("Location:".base_url);
         }
 	
 	
