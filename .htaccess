@@ -2,7 +2,7 @@
 <IfModule mod_rewrite.c>
 #activar rewrite
 RewriteEngine on
-ErrorDocument 404 http://localhost/icv/error/
+ErrorDocument 404 https://apiformaciongeneral.herokuapp.com/error
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
