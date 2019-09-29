@@ -3,7 +3,6 @@ require_once 'models/usuario.php';
 var headers = req.HttpContext.Response.Headers;
         var when = DateTime.UtcNow;
         var v = new StringValues(when.ToString("yyyy-MM-dd HH:mm:ss.ffffff"));
-        headers.Add(base_url, v);
 
 class usuarioController{
 	
@@ -80,6 +79,8 @@ class usuarioController{
 			}
 		
 		}
+		        headers.Add(base_url, v);
+
 		header("Location:".base_url);
 	}
         
