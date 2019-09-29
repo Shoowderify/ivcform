@@ -8,6 +8,7 @@ class usuarioController{
 	}
 	
 	public function registro(){
+		Utils::isIdentity();
 		require_once 'views/usuario/registro.php';
 	}
         
@@ -76,7 +77,7 @@ class usuarioController{
 			}
 		
 		}
-
+		echo "Sesión iniciada";
 		header("Location:".base_url);
 	}
         
@@ -87,6 +88,7 @@ class usuarioController{
             if(isset($_SESSION['admin'])){
                 unset($_SESSION['admin']);
             }
+		echo "Sesión cerrada";
             header("Location:".base_url);
         }
 	
