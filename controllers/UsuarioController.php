@@ -76,7 +76,7 @@ class usuarioController{
 			}
 		
 		}
-		header("Location:".base_url);
+		header("Location:".base_url/index.php);
 	}
         
         public function logout(){
