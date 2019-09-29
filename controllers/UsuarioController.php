@@ -76,7 +76,7 @@ class usuarioController{
 			}
 		
 		}
-		header("Location:".base_url/index.php);
+		header("Location:".base_url."index.php");
 	}
         
         public function logout(){
@@ -86,7 +86,7 @@ class usuarioController{
             if(isset($_SESSION['admin'])){
                 unset($_SESSION['admin']);
             }
-            header("Location:".base_url);
+            header("Location:".base_url."index.php");
         }
 	
 	
