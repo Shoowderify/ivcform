@@ -9,4 +9,13 @@ class Utils{
         
         return $name;
     }
+    
+    public static function isIdentity(){
+     if(!isset($_SESSION['identity'])){
+        header("Location:".base_url);
+     }else{
+        return true;   
+     }
+    }
+    
 }
