@@ -38,7 +38,7 @@ class formularioController{
                 $_SESSION['formulario'] = 'failed';
          }
         }else{
-            header("Locatio:".base_url);
+            header("Location:".base_url);
         }
     }
     public function gestion(){
