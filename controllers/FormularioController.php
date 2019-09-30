@@ -9,7 +9,7 @@ class formularioController{
     }
     public function add(){
         if(isset($_SESSION['identity'])){
-            $total= $_POST['horometroi'] - $_POST['horometrof'];
+            $total= $_POST['horometrof'] - $_POST['horometroi'];
             $usuario_id = $_SESSION['identity']->id;
             $turno = isset($_POST['turno']) ? $_POST['turno'] : false;
             $petroleo = isset($_POST['petroleo']) ? $_POST['petroleo'] : false;
