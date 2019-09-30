@@ -24,7 +24,10 @@
             <!-- CABECERA-->
             <header id="header">
                 <div id="logo">
-                    ICV FAENA ANDINA
+                    <a href="index.php">
+                    <img src="<?=base_url?>/assets/img/logo.png" alt="logo"/>
+                    
+                    </a>
                 </div>
                 <!-- MENU -->
                 <nav id="menu">
