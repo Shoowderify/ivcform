@@ -4,6 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Formularios ICV</title>
+    <link rel="icon" type="image/png" href="<?=base_url?>/assets/img/logo.png" sizes="16x16">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
         <link rel="stylesheet" href="<?=base_url?>/assets/css/styles.css?v=<?php echo time(); ?>"    
               		<!--PARA color-->
 		<meta name="theme-color" content="#fff"/>
