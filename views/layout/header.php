@@ -24,7 +24,7 @@
             <!-- CABECERA-->
             <header id="header">
                 <div id="logo">
-                    Formularios ICV
+                    ICV FAENA ANDINA
                 </div>
                 <!-- MENU -->
                 <nav id="menu">
