@@ -94,7 +94,8 @@ a:hover{
 
 
 #menu a:hover{
-    background: #01b1EA;
+    background: #6a747d;
+    border-radius: 20px;
 }
 
 #title{
